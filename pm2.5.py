@@ -9,7 +9,7 @@ while True:
 
 
         smtpssl=smtplib.SMTP_SSL("smtp.gmail.com", 465)
-        smtpssl.login(from_addr, "E125646990")
+        smtpssl.login(from_addr, "xxxxxx")
 
         msg = '復興站 PM2.5= '+message
         mime=MIMEText(msg, "plain", "utf-8")
